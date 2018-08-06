@@ -2,6 +2,9 @@
   <div class="hello">
     <h1>{{ msg }}</h1>
     <h2>This app is to help anyone exposed to the elements prepare for a rainy day. (ex: motorcyclist, bicyclist & pedestrians)</h2>
+       <form v-on:submit.prevent="sunTimes">
+      <p> <input type="text" v-model="rhyme"> Enter City <br> <br><button type="submit">Search</button></p>
+    </form>
     <ul>
       <li>
         <a
@@ -41,6 +44,9 @@
 </template>
 
 <script>
+    
+import axios from 'axios'    
+    
 export default {
   name: 'HelloWorld',
   data () {
@@ -55,7 +61,8 @@ export default {
 <style scoped>
  h1, h2 {
   font-weight: normal;
-     color: darkslategrey;
+     color: slategray;
+     
 }
 ul {
   list-style-type: none;

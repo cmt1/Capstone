@@ -3,23 +3,35 @@
 
 <head>
     <style>
-    .footer {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  padding: 1rem;
-  background-color: #333333;
-  text-align: center;
-        color: white;
-    }
+        .footer {
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            padding: .5%;
+            background-color: #333333;
+            text-align: center;
+            color: white;
+        }
+
         body {
             opacity: .8;
+            position: relative;
+            margin: 0;
+            padding-bottom: 6rem;
+            min-height: 100%;
+            font-family: "Helvetica Neue", Arial, sans-serif;
         }
+
+        
+
         .container {
             background-color: white;
             opacity: none;
         }
+
+        }
+
     </style>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -32,15 +44,28 @@
 </head>
 
 <body background="http://cdn2.creativecirclemedia.com/providencemedia/original/1376072855_e224.jpg">
-    <nav class="navbar navbar-light bg-lightnavbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">
+    <nav class="nav justify-content-center navbar navbar-light bg-lightnavbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">
     <img src="https://svgsilh.com/svg/2786140.svg" width="30" height="30" class="d-inline-block align-top" alt="cloud icon">
     Will it Rain!
   </a>
-</nav>
+    </nav>
+    <nav class="nav justify-content-center navbar sticky-top navbar-light bg-light">
+        <ul class="nav justify-content-center">
+            <li class="nav-item">
+                <a class="nav-link active" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+            </li>
+
+        </ul>
+
+    </nav>
     <div class="container">
-    <div id="app"></div>
+        <div id="app"></div>
     </div>
+
     <div class="footer">Copyright &copy; 2018 Carlos Torres</div>
     <!-- built files will be auto injected -->
 
