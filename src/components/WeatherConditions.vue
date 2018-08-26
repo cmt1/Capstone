@@ -2,7 +2,7 @@
   <div>
     <dl>
       <dt v-if="conditions.temp != conditions.temp_min">Chance of Rain</dt>
-      <dd v-if="conditions.temp != conditions.temp_min">{{ conditions.rain }}%</dd>
+      <dd v-if="conditions.temp != conditions.temp_min">{{ conditions.temp }}%</dd>
       <dt>Humidity</dt>
       <dd>{{ conditions.humidity }}%</dd>
       

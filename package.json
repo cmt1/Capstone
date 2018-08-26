@@ -14,6 +14,7 @@
     "axios": "^0.18.0",
     "bkts": "0.0.2",
     "vue": "^2.5.2",
+    "vue-analytics": "^5.15.0",
     "vue-router": "^3.0.1"
   },
   "devDependencies": {
