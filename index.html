@@ -3,14 +3,18 @@
 
 <head>
     <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-120116455-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-120116455-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
 
-  gtag('config', 'UA-120116455-1');
-</script>
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-120116455-1');
+
+    </script>
 
     <style>
         .footer {
@@ -33,13 +37,15 @@
             font-family: "Helvetica Neue", Arial, sans-serif;
         }
 
-        
+
 
         .container {
             background-color: whitesmoke;
             opacity: none;
         }
 
+        .nav-link {
+            color: seagreen;
         }
 
     </style>
@@ -56,24 +62,25 @@
 <body background="http://cdn2.creativecirclemedia.com/providencemedia/original/1376072855_e224.jpg">
     <nav class="nav justify-content-center navbar navbar-light bg-lightnavbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="#">
-    <img src="https://svgsilh.com/svg/2786140.svg" width="30" height="30" class="d-inline-block align-top" alt="cloud icon">
-    Will it Rain!
-  </a>
+            <img src="https://svgsilh.com/svg/2786140.svg" width="30" height="30" class="d-inline-block align-top" alt="cloud icon">
+            Will it Rain...?
+        </a>
     </nav>
     <nav class="nav justify-content-center navbar sticky-top navbar-light bg-light">
         <ul class="nav justify-content-center">
             <li class="nav-item">
-                <a class="nav-link active" href="HelloWorld.vue">Home</a>
+                <a class="nav-link active" href="https://github.com/cmt1/Capstone">GitHub</a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="about.vue">About</a>
+
+            <li class="nav-item"><a class="nav-link" href="http://carlos-torres.com/">Portfolio</a>
             </li>
+
 
         </ul>
 
     </nav>
     <div class="container">
-        
+
         <div id="app"></div>
     </div>
 
